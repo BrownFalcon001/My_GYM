@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Author : brownfalcon
+email : brownfalcon001@gmail.com
 
-Template Name: Company
-Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
