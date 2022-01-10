@@ -256,8 +256,13 @@ function show_contact() {
           if (error) {
             // The write failed...
           } else {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("id").value = "";
+            document.getElementById("branch").value ="";
+            document.getElementById("subject").value = "";
+            document.getElementById("message").value = "";
               alert("Done!");
-            
          
           }
         });
@@ -311,6 +316,13 @@ function show_placeOrder() {
             // The write failed...
           } else {
               alert("Successfully Place order!");
+              document.getElementById("name").value = "";
+              document.getElementById("email").value = "";
+              document.getElementById("id").value = "";
+              document.getElementById("code").value = "";
+              document.getElementById("address").value = "";
+              document.getElementById("noOf").value = "";
+
             
           }
         });
